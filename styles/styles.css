@@ -3,6 +3,11 @@
     --center-part: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav{
     background-color: var(--color);
@@ -32,8 +37,7 @@ main{
 }
 
 main img{
-    width: 200px;
-    height: auto;
+    float: right;
 }
 
 aside{
@@ -44,6 +48,12 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: var(--center-part);
+}
+
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 
 aside img{
@@ -57,3 +67,12 @@ footer{
     text-align: var(--center-part);
 }
 
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: white;
+  color: purple;
+}
